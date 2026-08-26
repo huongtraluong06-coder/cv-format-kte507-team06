@@ -119,7 +119,7 @@ export default function CVTemplate({ candidate, photo, generatedAt, pageRef, cla
           <RequirementRow label="Phương tiện di chuyển" value={candidate.vehicle} />
           <RequirementRow label="Giờ làm việc có thể nhận" value={candidate.hours} />
           <RequirementRow label="Sẵn sàng di chuyển" value={candidate.mobility} />
-          <RequirementRow label="Hiểu COD / Kinh nghiệm COD" value={candidate.cod} />
+          <RequirementRow label="Kinh nghiệm COD" value={candidate.cod} />
         </aside>
       </main>
 
