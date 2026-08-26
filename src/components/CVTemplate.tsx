@@ -67,11 +67,7 @@ export default function CVTemplate({ candidate, photo, generatedAt, pageRef, cla
   return (
     <div ref={pageRef} className={`${styles.page}${className ? ` ${className}` : ''}`} data-cv-page="true">
       <header className={styles.header}>
-        <img className={styles.viettelLogo} src="/assets/images/viettel-post-logo-png_seeklogo-470845.png" alt="Viettel Post" />
-        <div className={styles.ftuBlock}>
-          <img src="/assets/images/Logo-DH-Ngoai-Thuong-FTU.png" alt="FTU" />
-          <span>Nhóm 06 | KTE507</span>
-        </div>
+        <img className={styles.viettelLogo} src="/assets/images/viettel-post-logo-png_seeklogo-470845 copy.png" alt="Viettel Post" />
       </header>
       <div className={styles.redDivider} />
 
