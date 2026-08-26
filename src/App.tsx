@@ -2,7 +2,7 @@ import { ChangeEvent, FormEvent, useMemo, useRef, useState } from 'react';
 import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
 import mammoth from 'mammoth';
-import { AlertCircle, BriefcaseBusiness, Check, ChevronDown, FileText, FileUp, ImagePlus, RefreshCw, Trash2, UserRound, X, Zap } from 'lucide-react';
+import { CircleAlert as AlertCircle, BriefcaseBusiness, Check, ChevronDown, FileText, FileUp, ImagePlus, RefreshCw, Trash2, UserRound, X, Zap } from 'lucide-react';
 import CVTemplate from './components/CVTemplate';
 import './components/CVPreviewFrame.css';
 
